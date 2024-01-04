@@ -1,7 +1,7 @@
 package inMemoryModel
 
-import Staff.Color
 import modelElements.*
+import java.awt.Color
 
 class ModelStore(
     private var changedObserver: Array<IModelChangedObserver>
@@ -14,14 +14,14 @@ class ModelStore(
         flashes = listOf(
             Flash(
                 power = 2.34F,
-                color = Color()
+                color = Color.CYAN
             )
         )
     ))
     var flashes = mutableListOf(
         Flash(
             power = 1.23F,
-            color = Color()
+            color = Color.BLACK
         )
     )
     var cameras = mutableListOf(Camera())

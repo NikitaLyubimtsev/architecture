@@ -1,8 +1,8 @@
 package modelElements
 
 import Staff.Angle3D
-import Staff.Color
 import Staff.Point3D
+import java.awt.Color
 
 class Flash(
     var power: Float,

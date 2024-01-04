@@ -1,4 +1,0 @@
-package Staff
-
-class Color {
-}
