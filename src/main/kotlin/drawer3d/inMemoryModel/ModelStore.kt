@@ -1,7 +1,6 @@
 package drawer3d.inMemoryModel
 
 import drawer3d.modelElements.*
-import modelElements.*
 import java.awt.Color
 
 class ModelStore(
