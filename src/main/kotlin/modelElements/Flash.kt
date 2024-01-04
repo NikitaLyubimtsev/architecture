@@ -1,7 +1,7 @@
 package modelElements
 
-import Staff.Angle3D
-import Staff.Point3D
+import staff.Angle3D
+import staff.Point3D
 import java.awt.Color
 
 class Flash(

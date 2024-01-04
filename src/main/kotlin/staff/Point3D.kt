@@ -1,4 +1,4 @@
-package Staff
+package staff
 
 class Point3D {
 }
