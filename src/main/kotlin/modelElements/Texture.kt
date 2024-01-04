@@ -1,4 +1,0 @@
-package modelElements
-
-class Texture {
-}

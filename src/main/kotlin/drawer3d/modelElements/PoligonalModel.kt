@@ -1,6 +1,6 @@
-package modelElements
+package drawer3d.modelElements
 
-import staff.Point3D
+import drawer3d.staff.Point3D
 
 class PoligonalModel(
     var textures: List<Texture>

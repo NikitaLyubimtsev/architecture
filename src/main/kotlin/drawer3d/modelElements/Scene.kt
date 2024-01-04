@@ -1,4 +1,4 @@
-package modelElements
+package drawer3d.modelElements
 
 class Scene(
     var id: Int,

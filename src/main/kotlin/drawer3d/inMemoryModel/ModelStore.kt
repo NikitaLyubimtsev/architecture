@@ -1,5 +1,6 @@
-package inMemoryModel
+package drawer3d.inMemoryModel
 
+import drawer3d.modelElements.*
 import modelElements.*
 import java.awt.Color
 
@@ -15,12 +16,14 @@ class ModelStore(
         )
     )
     var cameras = mutableListOf(Camera())
-    var scenes = mutableListOf(Scene(
+    var scenes = mutableListOf(
+        Scene(
         id = 1,
         models = models,
         flashes = flashes,
         cameras = cameras
-    ))
+    )
+    )
 
     override fun notifyChange(model: IModelChanger) {
         TODO("Not yet implemented")

@@ -1,4 +1,4 @@
-package inMemoryModel
+package drawer3d.inMemoryModel
 
 /**
  * Интерфейс смены модели
