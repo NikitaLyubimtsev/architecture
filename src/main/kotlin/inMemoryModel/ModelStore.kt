@@ -8,16 +8,6 @@ class ModelStore(
 ) : IModelChanger {
 
     var models = mutableListOf(PoligonalModel(listOf(Texture())))
-    var scenes = mutableListOf(Scene(
-        id = 1,
-        models = listOf(PoligonalModel(listOf(Texture()))),
-        flashes = listOf(
-            Flash(
-                power = 2.34F,
-                color = Color.CYAN
-            )
-        )
-    ))
     var flashes = mutableListOf(
         Flash(
             power = 1.23F,
@@ -25,6 +15,12 @@ class ModelStore(
         )
     )
     var cameras = mutableListOf(Camera())
+    var scenes = mutableListOf(Scene(
+        id = 1,
+        models = models,
+        flashes = flashes,
+        cameras = cameras
+    ))
 
     override fun notifyChange(model: IModelChanger) {
         TODO("Not yet implemented")
